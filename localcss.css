@@ -1,0 +1,37 @@
+body {
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.my-4 {
+    animation: ;
+}
+
+#clear{
+    margin-left: 20px;
+}
+
+#add:hover{
+    transition: transform 0.4s;
+    transform: translateY(-2px);
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+}
+#clear:hover{
+    transition: transform 0.4s;
+    transform: translateY(-2px);
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+}
+
+
